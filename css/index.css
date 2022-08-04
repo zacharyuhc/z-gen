@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+html{
+    background-color: #282a2f;
+}
+
+.rectangle-top{
+    height: auto;
+	height:70px;
+	background:#151515;
+    display: flex;
+}
+
+nav{
+    margin-top: 25px;
+    text-align: center;
+    justify-content: left;
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+}
+
+.lien-discord{
+    margin-left: 20px;
+}
+.lien-home{
+    margin-left: 20px;
+}
+.shop{
+    margin-left: 20px;
+}
