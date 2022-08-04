@@ -12,20 +12,24 @@ html {
 }
 
 nav {
-  margin-top: 25px;
-  text-align: center;
-  justify-content: left;
   font-family: "Montserrat";
   color: white;
   text-decoration: none;
+  margin-top: 25px;
+  position: relative;
+  display: block;
+  z-index: 7;
 }
-
 .lien-discord {
   margin-left: 20px;
 }
+.lien-discord:hover {
+  margin-left: 20px;
+  background: white;
+  color: black;
+}
 .lien-home {
   margin-left: 20px;
-  margin-left: 31px;
 }
 .shop {
   margin-left: 20px;
