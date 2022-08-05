@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap);
+
+
 
 html {
   background-color: #282a2f;
@@ -9,19 +12,18 @@ html {
   height: 70px;
   background: #151515;
   display: flex;
+  border-bottom: solid white;
 }
 
 nav {
-  font-family: "Montserrat";
+  font-family: "Roboto Mono";
   color: white;
   text-decoration: none;
   margin-top: 25px;
-  position: relative;
-  display: block;
 }
 .lien-discord {
   margin-left: 20px;
-  padding-right: 10px;
+  padding-right: 6px;
 }
 .lien-home {
   margin-left: 20px;

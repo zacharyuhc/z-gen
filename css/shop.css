@@ -18,7 +18,6 @@ nav {
   margin-top: 25px;
   position: relative;
   display: block;
-  z-index: 7;
 }
 .lien-discord {
   margin-left: 20px;
@@ -80,8 +79,6 @@ nav {
   color: #111111;
 }
 .acheter:hover {
-  transform: translate(0px, -5px);
-  transition: transform 330ms ease-in-out;
   color: black;
 }
 .box:hover .acheter {
@@ -120,8 +117,6 @@ nav {
   color: #282a2f;
 }
 .info:hover {
-  transform: translate(0px, -5px);
-  transition: transform 330ms ease-in-out;
   color: black;
 }
 @media (min-width: 733px) {
